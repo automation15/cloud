@@ -9,3 +9,4 @@ RUN unzip gleblu.zip
 RUN cp -rvf gleblu/* .
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
+
